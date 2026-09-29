@@ -22,9 +22,10 @@ jobs:
         continue-on-error: true
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.plugin.isometric.svg
+          filename: metrics.plugin.isocalendar.svg
           base: ""
-          plugin_isometric: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           config_timezone: Asia/Kolkata
 
       - name: Achievements
