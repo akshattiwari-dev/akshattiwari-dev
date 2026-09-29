@@ -102,5 +102,15 @@
 | [**Portfolio**](https://github.com/akshattiwari-dev/akshatportfolio-newai-) | Personal portfolio | ✅ Built |
 
 <br>
+## 🎓 AI Certifications
+ 
+<!-- ✏️ TODO: replace each CERT_*/ISSUER_*/YEAR_*/LINK_* below with your real certificate details.
+     Delete any extra rows. Use the verification link from Credly / Coursera / Google / DeepLearning.AI etc. -->
+ 
+| Certificate | Issued by | Year | Proof |
+| :-- | :-- | :-- | :-- |
+| Introduction to Artificial Intelligence| infosys |  [View credential](https://verify.onwingspan.com) |
+|  Introduction to Deep Learning|  infosys |[View credential](https://verify.onwingspan.com) |
+| Computer Vision 101  | infosys |  [View credential](https://verify.onwingspan.com) |
 
 <p align="center"><i>Thanks for stopping by — let’s build something impactful together 🚀</i></p>
