@@ -1,0 +1,72 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/metrics.yml"]
+
+permissions:
+  contents: write
+
+# Needs a secret called METRICS_TOKEN (classic PAT with repo + read:user). See GUIDE.md.
+# Each step is independent: if one fails (e.g. PageSpeed URL not set yet) the others still run.
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Isometric commit calendar
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.isometric.svg
+          base: ""
+          plugin_isometric: yes
+          config_timezone: Asia/Kolkata
+
+      - name: Achievements
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.achievements.svg
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+
+      - name: Top languages
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 6
+
+      - name: Starred repositories
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.stars.svg
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 6
+
+      # TODO: replace with your real portfolio URL (delete this step if you have none)
+      - name: Website performance (PageSpeed)
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.pagespeed.svg
+          base: ""
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://YOUR-PORTFOLIO-URL
+          plugin_pagespeed_detailed: yes
