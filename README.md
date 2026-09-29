@@ -14,8 +14,6 @@
      ╚══════════════════════════════════════════════════════════════════╝ -->
 <h1 align="center">Hi there, I'm Akshat Tiwari 👋</h1>
 
-<hr>
-
 <h3 align="center">Full-Stack Developer | AI Enthusiast · React.js · Next.js · Node.js | Learning by building</h3>
 
 <p align="center">
@@ -65,13 +63,15 @@
   <tr>
     <td width="50%" valign="top">
       <h3>📊 GitHub Stats</h3>
-      <img src="https://github-readme-stats.vercel.app/api?username=akshattiwari-dev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" width="100%" alt="GitHub stats"><br>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshattiwari-dev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" width="100%" alt="Top languages"><br>
-      <img src="https://streak-stats.demolab.com?user=akshattiwari-dev&theme=github-dark-blue&hide_border=true" width="100%" alt="Streak stats">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=akshattiwari-dev&hide_border=true&theme=github-dark-blue">
+        <img src="https://streak-stats.demolab.com?user=akshattiwari-dev&hide_border=true&theme=default" width="100%" alt="Streak stats">
+      </picture><br>
+      <img src="./metrics.plugin.languages.svg" width="100%" alt="Top languages">
     </td>
     <td width="50%" valign="top">
       <h3>📅 Isometric Commit Calendar</h3>
-      <img src="./metrics.plugin.isometric.svg" width="100%" alt="Isometric commit calendar">
+      <img src="./metrics.plugin.isocalendar.svg" width="100%" alt="Isometric commit calendar">
     </td>
   </tr>
   <tr>
