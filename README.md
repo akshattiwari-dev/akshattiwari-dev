@@ -24,12 +24,18 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/builtby-akshattiwari/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:akshattiwari2141@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+  <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=akshattiwari2141@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="..." // keep your existing classes
+            ><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
   <a href="https://leetcode.com/u/akshat-tiwari/"><img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
   <!-- ✏️ TODO 1: replace PORTFOLIO_LINK with your portfolio URL -->
  <a href="https://www.builtbyakshat.in"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFQklEQVR4nO1YfUwURxRf8c+2aUzL7cwC/UCENEVtgrVq6yzHISL2QFSEVrDSj9Q0NVDTKFI+LtDiIZxKwZgK3BUL3MWkqdS0pOmXDaRprLSkaeX2Yv81rf1bTBOTad7A7e5xy+3H3cEf5SUvu5mdmff7zXvz5u1w3IqsyIr8fwVj8VGExAEekX8QFqkZZWMQ6RcExyPLBL9iNY/JDbPAo4hg8TrMteTwMSbl8YJH8wpzLTkBHotDyiqSdvPjSbvKC0PcEssqhMlfygra88xOgJC4SeWFvzmOS0kO1OQZj3sRLAtCYrPK/R8nIgwREpu4JEiKDZOXESZXERZvI0zuJ2rjLq7k/rytqzYsvmQ5tGy2FzJ5JP6SfMCiznkhTgEW0+AhtpcbPFLC9I4ZEinqleeReBdifm6CpThwKlanptrXIkRaeCTOqj1hKJzmYl4BbxPI1uSD1hawHUFCEKs4PZnfsOHM0MzFIWvWFD4MGs8cCJFWFZ4x/QEsA8wN0Iq7gSszD3kDUpPPH/rN65dmfYEQVavXL9G36r00d8MBioV8mvF4EX2/6+uIPmb0dO/EPeWsyL9tgICSKhfG/MDlmRxfIPRnLIO7nA1Rm/C1I+ctExgcDcrzCGn5dMh/M1vPA/KAhSuvB77++HAE8CfXltB8x9u0b2DKMgFfIBQxpzcg3eq7/PuDpgmwsNEx9Dx5Ux5btr+VDo4E5W8u9zjdU+GirR1fxEXANxemjaYJQMzrGXoic5c89oJvOuJbdk4Za8/M2h03AZ8/NG3eAxobdqHmPFUuj+3um5Tbu/om5HboEz8B6a4hAgiT0zZbAc88YMCQY+c78thntxymro4vmW567hW5vbD4mGHgPR9dp1XV7mgCgRCNQYD8u6AWmeUx+aTR9RnLCLEMdpz9jqalOxYtCeDbqTPfx846I0H6XtsYLXae0JxLlwDPEzuPSFALAMSxc28TrT8xQnv7b0QZHxiZoTW1Z2h6RmHUWGirefUs66MF3OUep849TTQzqyRmXaRLYF5W8QJxIkx+WmwiOKRy1x+gjqJ6WnnwFM0vPBpz9WUvZDhY//7hP5Q98uEEFdLsmv23bn/DEgFZUtPsG3kserJzShNaYZaUNshgPvB8E/ENNvq+ynb5BI+LQFgg/mFDVtd62KrASmoBy91YSfM2H9LUDc9URfTt8HwrAzrWMEqrD3fTts6vWDkSMwtZIRAV78M3GYAXyxrlybdse103sxTvPi73P3L0oqFsBCc69IdnwgiEFUCEARUU1emCgT5mCTS0fEp3lrzLnroEMBbreSRK8DRCwH3uGsWCsgELdtTRxrYrEWUEvEMbfFOSgJ12nrtm6kBT66IEeERY+QpPIwRAS/c2a2QpO4WND6omGFYY47MIPiYBtRGjBGCFoVCD1KqXfaBPeYUrwkM+Ha2qcbNzBJ4GCGj/Dxgx1NnzAzPy9PoKKqQrqw7v0AbfoI+ZlR4cDcrnS8ZjOwx5QPOPzKyLvf4g7bn4M1N4txoq3X2TEZWAPgEkfi67HJEWqwQSpQdrPUqCKKzTJwC3YepCLlXYvm25CLjc4yxswnigBtMlMH8vNKUmATcDXb2T9/Sq0UTo4GiQhQ2cymrwcJLLoRjrf0C+VsTinUTWPvFo1jon9Zz/UbW/Qr/GJCCTUHliuTRv86EI8IxAQDqpSyAcTmxPIHEM7mTgWiPZgIU0OADL2IaFmI/OYFLo0qXpBzgrAncycK2xXBnJF5BC3pFb67h4BO5k4FoD4tDIj3686vVLs8xWQDppeeVXZEW4ReU/eiUBUupHfGUAAAAASUVORK5CYII=" alt="Portfolio"></a>
   <!-- ✏️ TODO 2: replace RESUME_LINK with your resume URL -->
   <a href="resume-akshat-tiwari.pdf"><img src="https://img.shields.io/badge/RESUME-4B5563?style=for-the-badge&logo=readme&logoColor=white" alt="Resume"></a>
+     
 </p>
 
 ## 👨‍💻 About Me
