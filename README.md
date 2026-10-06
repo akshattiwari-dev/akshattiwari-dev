@@ -27,7 +27,7 @@
   <a href="mailto:akshattiwari2141@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
   <a href="https://leetcode.com/u/akshat-tiwari/"><img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
   <!-- ✏️ TODO 1: replace PORTFOLIO_LINK with your portfolio URL -->
-  <a href="PORTFOLIO_LINK"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="PORTFOLIO_LINK"><img src="https://img.shields.io/badge/www.builtbyakshat.in/" alt="Portfolio"></a>
   <!-- ✏️ TODO 2: replace RESUME_LINK with your resume URL -->
   <a href="RESUME_LINK"><img src="https://img.shields.io/badge/RESUME-4B5563?style=for-the-badge&logo=readme&logoColor=white" alt="Resume"></a>
 </p>
